@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+.container {
+    width: 100%;
+}
+
+#logout{
+    margin:4px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius:3px;
+    float: right;
+    margin-right:15px; 
+}
+#logout>a{
+    color: #c10b5d;
+    text-decoration: none;
+}
+
+.myTabButton {
+    margin: 0 0 0 30%;
+}
+
+body{
+    font-family: "Raleway";
+    overflow-y:scroll;
+    background-color: #fff;
+}
+
+.form-control {
+    width: 150px;
+    margin: 0 auto 10px auto;
+    height: 49px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.queries {
+    margin: 0 0 0 10px;
+    color: black;
+}
+
+.tagButton {
+    margin: 3px 5px 5px 0px;
+}
+.myHistory {
+    padding: 6px;
+    margin: 0 0 0 43%;
+}
+
+.forgotPassword {
+    margin: 6px 0 0 37%;
+}
+.nav{
+    background-color: #c10b5d;
+}
+
+.navbar {
+    height: 50px;
+    margin-bottom: 1px;
+}
+.navbar-brand {
+    padding: 10px 15px;
+    margin: 0px 0px 0px 10px;
+    color:white;
+}
+
+
+/*header {
+    width: 100%;
+    height: 50px;
+    background-color: #4CAF50;
+}*/
+
+.classLogin {
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 1px; 
+
+}
+
+input[type=email], input[type=text], input[type=password],input[type=password] {
+    width: 100%;
+    font-size: 22px;
+    padding: 8px;
+    margin: 0 0 5px 0;
+    display: inline-block;
+    border: 1px solid #c10b5d;
+    border-radius:2px; 
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    font-size: 22px;
+    padding: 8px;
+    border: 2px solid #c10b5d;
+    box-sizing: border-box;
+}
+
+
+A:link {
+    color: white;
+    font-size: 25px;
+}
+
+[for="id_email"],[for="id_username"],[for="id_password"],[for="id_retypePassword"],[for="id_first_name"],[for="id_last_name"],[for="username"],[for="password"] {
+    display: none;
+}
+
+/*ul {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}*/
+
+.blockTabs {
+    margin: 0 32%;
+}
+
+/* Style the error-templates inside the tab */
+.tablinks {
+    margin:5px auto 10px auto;
+    background-color: darkslategrey;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color:#cccccc;
+}
+
+/* Change background color of buttons on hover */
+.tablinks:hover {
+    opacity: 0.8;
+}
+
+/* Create an active/current tablink class */
+.activeTab {
+    background-color: #e74c3d;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#d1 {
+    color: white;
+    font-size: 40px;
+
+    padding: 30px;
+    text-decoration: none;
+}
+
+#d1:hover {
+    color: green;
+    margin: auto;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.myButton {
+    background-color: #fff;
+    border: 2px solid #c10b5d;
+    font-size: 25px;
+    color: #c10b5d;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.myButton:hover {
+    background-color: #c10b5d;
+    color: #fff;
+}
+
+.btn_success{
+    background-color: #fff !important;
+    border: 2px solid #fc913a !important;
+    color: #fc913a !important;
+}
+
+.btn_success:hover{
+    background-color: #fc913a !important;
+    color: #fff !important;
+}
+
+.btn_secondary{
+    background-color: #fff !important;
+    border: 2px solid #f9d423 !important;
+    color: #f9d423 !important;   
+}
+
+.btn_secondary:hover{
+    background-color: #f9d423 !important;
+    color: #fff !important;
+}
+
+.btn_primary{
+    background-color: #fff !important;
+    border: 4px solid #ede574 !important;
+    color: #ede574 !important;
+}
+
+.btn_primary:hover{
+    background-color: #ede574 !important;
+    color: #fff !important;
+}
+.mainColumn {
+    margin: 10px 0 0 10px;
+}
+
+.error-template {
+    text-align: center;
+    margin: 100px 0 0 0;
+    font-size: 50px;
+}
+
+.error-actions {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.error-actions .btn {
+    margin-right: 10px;
+}
+
+.empty-history {
+    text-align: center;
+    margin: 5px 0 0 0;
+    font-size: 25px;
+}
+
+.textOutput {
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
+
+.pngOutput {
+    display: none;
+    margin: 0 0 0 43%;
+}
+
+.modaltextOutput {
+    text-align: center;
+    font-size: 25px;
+}
+
+.modalpngOutput {
+    margin: 0 0 0 0%;
+}
+
+.myModalTitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.myClose {
+    font-size: 30px;
+
+}
+
+.modal-header .close {
+    margin-top: -30px;
+}
+
+.myCloseButton {
+    font-size: 20px;
+    margin: -60px 0 0 480px;
+}
+
+.modalTextOutputInputedText {
+    font-size: 25px;
+}
+
+.modalCorrectText {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+.modalIncorrectText {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+
+.suggestArea {
+
+    text-align: center;
+    font-size: 35px;
+}
+
+.suggestInModal {
+
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    margin: 15px 0 0 0;
+    padding: 20px 10px 20px 10px;
+}
+
+.suggestTitleInModal {
+    font-size: 25px;
+}
+
+.suggestModalList {
+    font-size: 18px;
+}
+
+.userDetail {
+    text-align: left;
+    margin-bottom: -20px;
+    width:50%;
+    font-size: 15px;
+}
+
+.wrapButton {
+    width:50%;
+    color:dimgrey;
+}
+.timeicon {
+    margin: 5px 0 0 0;
+}
+
+.welcomeMessege {
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-size: 30px;
+}
+.welcomeImage {
+    margin: 5px 0 0 20%;
+}
+
+.allHistory {
+    padding: 3px;
+
+    margin: 0 0 0 33%;
+}
+
+.myDeleteButton {
+    font-size: 20px;
+    margin: -44px 0 0 380px;
+}
+
+.myCloseButtonAndDelete {
+    font-size: 20px;
+    margin: -80px 0 0 480px;
+}
+
+.loadProccess {
+    display:none;
+    margin: 0 0 0 35%;
+}
+
+.myBtnAllHistory {
+    font-size: 20px;
+    margin: 0 0 0 -18%;
+}
+
+.boxWithValue{
+    display:none;
+}
+
+.myCalendar {
+    margin: 68px 0 0 0;
+}
+
+
+.foreign_auth{
+    display: inline;
+}
+.foreign_auth>button{
+    border:1px solid #c10b5d;
+    border-radius: 3px;
+    background-color: #fff;
+    color:#c10b5d; 
+    width: 229px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.foreign_auth>button>a{
+    font-size: 20px;
+    color: #c10b5d;
+    text-decoration: none;
+}
+.foreign_auth>button:hover{
+    font-size: 20px;
+    background-color: #ff7fb8;
+}
+
+select{
+    border-color:#c10b5d !important; 
+}
+
+
+
+
+
